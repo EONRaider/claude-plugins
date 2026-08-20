@@ -18,7 +18,7 @@
       "keywords": ["engineering", "workflow", "orchestration", "mattpocock-skills"],
       "source": {
         "source": "url",
-        "url": "https://github.com/EONRaider/foreman.git",
+        "url": "git@github.com:EONRaider/foreman.git",
         "ref": "v0.2.2",
         "sha": "f61322c0a5a3ede6ab8f0054e21fa1a573abea46"
       },
