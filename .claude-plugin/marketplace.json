@@ -31,6 +31,8 @@
         "name": "EONRaider",
         "url": "https://github.com/EONRaider"
       },
+      "category": "authoring",
+      "keywords": ["skills", "skill-creator", "agentskills", "authoring", "validation", "security", "audit", "lifecycle"],
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/EONRaider/SkillArtisan.git",
