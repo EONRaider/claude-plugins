@@ -19,8 +19,8 @@
       "source": {
         "source": "url",
         "url": "git@github.com:EONRaider/foreman.git",
-        "ref": "v0.3.0",
-        "sha": "fac33584931dc7d48bc03518862eb7447f03cc21"
+        "ref": "v0.3.1",
+        "sha": "0f6e39166fb59aa14d3064b659267dce68d356f7"
       },
       "homepage": "https://github.com/EONRaider/foreman"
     },
