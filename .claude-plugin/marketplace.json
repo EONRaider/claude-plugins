@@ -37,8 +37,8 @@
         "source": "git-subdir",
         "url": "https://github.com/EONRaider/SkillArtisan.git",
         "path": "skill-artisan",
-        "ref": "v2.5.2",
-        "sha": "36018be773fd0b6ae352bcf578acd605fde25433"
+        "ref": "v2.5.3",
+        "sha": "f5f7e3e4eba1bfef97332aab50383ca1bd0eeefa"
       },
       "homepage": "https://github.com/EONRaider/SkillArtisan"
     }
