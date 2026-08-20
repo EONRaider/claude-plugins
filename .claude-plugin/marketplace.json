@@ -15,7 +15,12 @@
         "url": "https://github.com/EONRaider"
       },
       "category": "engineering",
-      "keywords": ["engineering", "workflow", "orchestration", "mattpocock-skills"],
+      "keywords": [
+        "engineering",
+        "workflow",
+        "orchestration",
+        "mattpocock-skills"
+      ],
       "source": {
         "source": "url",
         "url": "git@github.com:EONRaider/foreman.git",
@@ -32,13 +37,22 @@
         "url": "https://github.com/EONRaider"
       },
       "category": "authoring",
-      "keywords": ["skills", "skill-creator", "agentskills", "authoring", "validation", "security", "audit", "lifecycle"],
+      "keywords": [
+        "skills",
+        "skill-creator",
+        "agentskills",
+        "authoring",
+        "validation",
+        "security",
+        "audit",
+        "lifecycle"
+      ],
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/EONRaider/SkillArtisan.git",
         "path": "skill-artisan",
-        "ref": "v2.5.9",
-        "sha": "2f83fb20ee3cc9c58f3286c8b7b8eaca2bf666a2"
+        "ref": "v2.5.10",
+        "sha": "dafaad197525f2a86df23f2f38b7c7cb3be25228"
       },
       "homepage": "https://github.com/EONRaider/SkillArtisan"
     }
