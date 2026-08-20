@@ -33,12 +33,12 @@
       },
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/eonraider/SkillArtisan.git",
+        "url": "https://github.com/EONRaider/SkillArtisan.git",
         "path": "skill-artisan",
         "ref": "master",
-        "sha": "ec59d6222d712b39fed2e47cdf30e01ffb541636"
+        "sha": "b6376bdcfcfea4e9ca939a23331f6ada84c15d50"
       },
-      "homepage": "https://github.com/eonraider/SkillArtisan"
+      "homepage": "https://github.com/EONRaider/SkillArtisan"
     }
   ]
 }
