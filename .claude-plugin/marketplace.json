@@ -1,0 +1,44 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "eonraider",
+  "owner": {
+    "name": "EONRaider",
+    "url": "https://github.com/EONRaider"
+  },
+  "description": "EONRaider's Claude Code plugin marketplace.",
+  "plugins": [
+    {
+      "name": "foreman",
+      "description": "Personal orchestrator for Claude Code: tracks a repo's Initiative through an agent-assisted engineering methodology, phase by phase.",
+      "author": {
+        "name": "EONRaider",
+        "url": "https://github.com/EONRaider"
+      },
+      "category": "engineering",
+      "keywords": ["engineering", "workflow", "orchestration", "mattpocock-skills"],
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EONRaider/foreman.git",
+        "ref": "v0.2.1",
+        "sha": "b025f0f851b9dc2f06b7211d9041ad27d507fc56"
+      },
+      "homepage": "https://github.com/EONRaider/foreman"
+    },
+    {
+      "name": "skillartisan",
+      "description": "Build, validate, secure, and maintain Claude Skills. Supersedes Anthropic's shipped skill-creator with a spec-compliant, cross-vendor, security-hardened successor: frontmatter validation, a combined decision/dedup gate, a five-surface compatibility matrix, gitleaks-based security scanning with tamper detection, the full with/without-skill evaluation engine, lifecycle classification, and an audit mode for upgrading, rebuilding, and bulk-auditing existing skills.",
+      "author": {
+        "name": "EONRaider",
+        "url": "https://github.com/EONRaider"
+      },
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/eonraider/SkillArtisan.git",
+        "path": "skill-artisan",
+        "ref": "master",
+        "sha": "ec59d6222d712b39fed2e47cdf30e01ffb541636"
+      },
+      "homepage": "https://github.com/eonraider/SkillArtisan"
+    }
+  ]
+}
