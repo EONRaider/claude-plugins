@@ -55,6 +55,23 @@
         "sha": "c894243d01c376d305f174de1f7279013dc88e4c"
       },
       "homepage": "https://github.com/EONRaider/SkillArtisan"
+    },
+    {
+      "name": "solid-coding",
+      "description": "Language-agnostic methodology for writing and refactoring code against SOLID, GoF design patterns, and complementary principles (DRY, KISS, YAGNI, Boy Scout, SoC, Encapsulation, Law of Demeter, CQS, TDD, AHA) — for whole-worktree refactors and live in-flight review alike. Wires into whatever CI/QA a repo already has and verifies every finding through an adversarial reviewer/verifier subagent pair before touching code.",
+      "author": {
+        "name": "EONRaider",
+        "url": "https://github.com/EONRaider"
+      },
+      "category": "code-quality",
+      "keywords": ["solid", "design-patterns", "refactoring", "code-quality", "architecture", "code-review"],
+      "source": {
+        "source": "url",
+        "url": "git@github.com:EONRaider/solid-coding.git",
+        "ref": "v0.1.0",
+        "sha": "48ade6fae13a787c4f18c13e8a10cb9b897a9bf9"
+      },
+      "homepage": "https://github.com/EONRaider/solid-coding"
     }
   ]
 }
