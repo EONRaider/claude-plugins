@@ -51,8 +51,8 @@
         "source": "git-subdir",
         "url": "https://github.com/EONRaider/SkillArtisan.git",
         "path": "skill-artisan",
-        "ref": "v2.6.0",
-        "sha": "c894243d01c376d305f174de1f7279013dc88e4c"
+        "ref": "v2.10.0",
+        "sha": "f827af0487394e230bfbeacfb56a24bb045334c1"
       },
       "homepage": "https://github.com/EONRaider/SkillArtisan"
     },
@@ -68,8 +68,8 @@
       "source": {
         "source": "url",
         "url": "git@github.com:EONRaider/solid-coding.git",
-        "ref": "v0.1.0",
-        "sha": "48ade6fae13a787c4f18c13e8a10cb9b897a9bf9"
+        "ref": "v0.2.0",
+        "sha": "86176b19d6eb4c239360fcb01b84b17b2580a55b"
       },
       "homepage": "https://github.com/EONRaider/solid-coding"
     }
