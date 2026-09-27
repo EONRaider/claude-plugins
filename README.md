@@ -5,7 +5,7 @@ A single [Claude Code plugin marketplace](https://docs.claude.com/en/docs/claude
 - [**foreman**](https://github.com/EONRaider/foreman) — personal orchestrator that tracks a repo's Initiative through an agent-assisted engineering methodology, phase by phase.
 - [**skillartisan**](https://github.com/EONRaider/SkillArtisan) — build, validate, secure, and maintain Claude Skills.
 - [**solid-coding**](https://github.com/EONRaider/solid-coding) — write and refactor code against SOLID, GoF design patterns, and complementary principles, with every finding adversarially verified.
-- [**simplicity**](https://github.com/EONRaider/simplicity) — `/simplicity:just-ask` asks every open question with a recommendation; `/simplicity:just-say-it` re-states the last response as a short plain list.
+- [**simplicity**](https://github.com/EONRaider/simplicity) — `/simplicity:just-ask` asks every open question with a recommendation; `/simplicity:just-say-it` re-states the last response as a short plain list; `/simplicity:just-finish-it` pushes, opens PRs, waits for CI and merges what passes; `/simplicity:cleanup` runs an end-of-session checklist.
 
 This repo holds nothing but the marketplace manifest (`.claude-plugin/marketplace.json`) — each plugin's actual code stays in its own repo, referenced here by source.
 
