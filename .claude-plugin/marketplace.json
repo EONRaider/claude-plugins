@@ -75,18 +75,18 @@
     },
     {
       "name": "simplicity",
-      "description": "Session ergonomics for Claude Code: /simplicity:just-ask collects every open question in the session and asks them through AskUserQuestion with a recommended option and reasoning; /simplicity:just-say-it re-states the latest response(s) as a short plain-language numbered list.",
+      "description": "Session ergonomics for Claude Code: /simplicity:just-ask collects every open question in the session and asks them through AskUserQuestion with a recommended option and reasoning; /simplicity:just-say-it re-states the latest response(s) as a short plain-language numbered list; /simplicity:just-finish-it pushes the session's branches, opens missing PRs, waits for CI and merges the ones that pass; /simplicity:cleanup runs an end-of-session checklist that stops background work and flags uncommitted or unpushed changes.",
       "author": {
         "name": "EONRaider",
         "url": "https://github.com/EONRaider"
       },
       "category": "productivity",
-      "keywords": ["productivity", "questions", "summaries", "concise", "ask-user-question"],
+      "keywords": ["productivity", "questions", "summaries", "concise", "ask-user-question", "pull-requests", "ci", "cleanup", "session"],
       "source": {
         "source": "url",
         "url": "https://github.com/EONRaider/simplicity.git",
-        "ref": "v0.1.0",
-        "sha": "5ff6f6008de0c4fd0b79ca2e8c83b865eccd36f4"
+        "ref": "v0.2.0",
+        "sha": "ae41976640597a31f0d1637f2f539e61a7b7dc7d"
       },
       "homepage": "https://github.com/EONRaider/simplicity"
     }
