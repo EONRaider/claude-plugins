@@ -75,18 +75,18 @@
     },
     {
       "name": "simplicity",
-      "description": "Session ergonomics for Claude Code: /simplicity:just-ask collects every open question in the session and asks them through AskUserQuestion with a recommended option and reasoning; /simplicity:just-say-it re-states the latest response(s) as a short plain-language numbered list; /simplicity:just-finish-it pushes the session's branches, opens missing PRs, waits for CI and merges the ones that pass, through gh or the GitHub MCP server; /simplicity:cleanup runs an end-of-session checklist that stops background work and flags uncommitted or unpushed changes.",
+      "description": "Session ergonomics for Claude Code: /simplicity:just-ask collects every open question in the session and asks them through AskUserQuestion with a recommended option and reasoning; /simplicity:just-say-it re-states the latest response(s) as a short plain-language numbered list; /simplicity:what-now takes stock of the session and lists what's done, where the current task stands and the next steps; /simplicity:just-finish-it pushes the session's branches, opens missing PRs, waits for CI and merges the ones that pass, through gh or the GitHub MCP server; /simplicity:cleanup runs an end-of-session checklist that stops background work and flags uncommitted or unpushed changes.",
       "author": {
         "name": "EONRaider",
         "url": "https://github.com/EONRaider"
       },
       "category": "productivity",
-      "keywords": ["productivity", "questions", "summaries", "concise", "ask-user-question", "pull-requests", "ci", "cleanup", "session", "github-mcp"],
+      "keywords": ["productivity", "questions", "summaries", "concise", "status", "ask-user-question", "pull-requests", "ci", "cleanup", "session", "github-mcp"],
       "source": {
         "source": "url",
         "url": "https://github.com/EONRaider/simplicity.git",
-        "ref": "v0.4.0",
-        "sha": "e8a250421599f3df0b8424a0120cae07362e469e"
+        "ref": "v0.5.0",
+        "sha": "eab1e069e07172d0fc3e95bcbc07b5134e2641ab"
       },
       "homepage": "https://github.com/EONRaider/simplicity"
     }
