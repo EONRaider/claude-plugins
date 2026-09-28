@@ -75,18 +75,18 @@
     },
     {
       "name": "simplicity",
-      "description": "Session ergonomics for Claude Code: /simplicity:just-ask collects every open question in the session and asks them through AskUserQuestion with a recommended option and reasoning; /simplicity:just-say-it re-states the latest response(s) as a short plain-language numbered list; /simplicity:just-finish-it pushes the session's branches, opens missing PRs, waits for CI and merges the ones that pass; /simplicity:cleanup runs an end-of-session checklist that stops background work and flags uncommitted or unpushed changes.",
+      "description": "Session ergonomics for Claude Code: /simplicity:just-ask collects every open question in the session and asks them through AskUserQuestion with a recommended option and reasoning; /simplicity:just-say-it re-states the latest response(s) as a short plain-language numbered list; /simplicity:just-finish-it pushes the session's branches, opens missing PRs, waits for CI and merges the ones that pass, through gh or the GitHub MCP server; /simplicity:cleanup runs an end-of-session checklist that stops background work and flags uncommitted or unpushed changes.",
       "author": {
         "name": "EONRaider",
         "url": "https://github.com/EONRaider"
       },
       "category": "productivity",
-      "keywords": ["productivity", "questions", "summaries", "concise", "ask-user-question", "pull-requests", "ci", "cleanup", "session"],
+      "keywords": ["productivity", "questions", "summaries", "concise", "ask-user-question", "pull-requests", "ci", "cleanup", "session", "github-mcp"],
       "source": {
         "source": "url",
         "url": "https://github.com/EONRaider/simplicity.git",
-        "ref": "v0.2.0",
-        "sha": "ae41976640597a31f0d1637f2f539e61a7b7dc7d"
+        "ref": "v0.3.0",
+        "sha": "b0fe25f486f846fe26d9e1651f050f7d39c7299a"
       },
       "homepage": "https://github.com/EONRaider/simplicity"
     }
