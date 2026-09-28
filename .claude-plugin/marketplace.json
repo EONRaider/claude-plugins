@@ -85,8 +85,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/EONRaider/simplicity.git",
-        "ref": "v0.3.0",
-        "sha": "b0fe25f486f846fe26d9e1651f050f7d39c7299a"
+        "ref": "v0.4.0",
+        "sha": "e8a250421599f3df0b8424a0120cae07362e469e"
       },
       "homepage": "https://github.com/EONRaider/simplicity"
     }
