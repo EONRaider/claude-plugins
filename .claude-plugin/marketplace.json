@@ -10,6 +10,7 @@
     {
       "name": "foreman",
       "description": "Personal orchestrator for Claude Code: tracks a repo's Initiative through an agent-assisted engineering methodology, phase by phase.",
+      "version": "0.3.1",
       "author": {
         "name": "EONRaider",
         "url": "https://github.com/EONRaider"
@@ -32,6 +33,7 @@
     {
       "name": "skillartisan",
       "description": "Build, validate, secure, and maintain Claude Skills. Supersedes Anthropic's shipped skill-creator with a spec-compliant, cross-vendor, security-hardened successor: frontmatter validation, a combined decision/dedup gate, a five-surface compatibility matrix, gitleaks-based security scanning with tamper detection, the full with/without-skill evaluation engine, lifecycle classification, and an audit mode for upgrading, rebuilding, and bulk-auditing existing skills.",
+      "version": "2.12.0",
       "author": {
         "name": "EONRaider",
         "url": "https://github.com/EONRaider"
@@ -59,6 +61,7 @@
     {
       "name": "solid-coding",
       "description": "Language-agnostic methodology for writing and refactoring code against SOLID, GoF design patterns, and complementary principles (DRY, KISS, YAGNI, Boy Scout, SoC, Encapsulation, Law of Demeter, CQS, TDD, AHA) — for whole-worktree refactors and live in-flight review alike. Wires into whatever CI/QA a repo already has and verifies every finding through an adversarial reviewer/verifier subagent pair before touching code.",
+      "version": "0.2.0",
       "author": {
         "name": "EONRaider",
         "url": "https://github.com/EONRaider"
@@ -76,7 +79,7 @@
     {
       "name": "simplicity",
       "description": "Session ergonomics for Claude Code: /simplicity:just-ask collects every open question in the session and asks them through AskUserQuestion with a recommended option and reasoning; /simplicity:just-say-it re-states the latest response(s) as a short plain-language numbered list; /simplicity:what-now takes stock of the session and lists what's done, where the current task stands and the next steps; /simplicity:just-finish-it pushes the session's branches, opens missing PRs, waits for CI and merges the ones that pass, through gh or the GitHub MCP server; /simplicity:cleanup runs an end-of-session checklist that stops background work and flags uncommitted or unpushed changes; /simplicity:rename-session renames the session after what it was actually about; /simplicity:promptfy rewrites a prompt into a stronger one and hands it back without running it.",
-      "version": "0.7.0",
+      "version": "0.7.1",
       "author": {
         "name": "EONRaider",
         "url": "https://github.com/EONRaider"
@@ -86,14 +89,15 @@
       "source": {
         "source": "url",
         "url": "https://github.com/EONRaider/simplicity.git",
-        "ref": "v0.7.0",
-        "sha": "51e1f5d0eeb48d0aafb3208751d8f1cad908fdf4"
+        "ref": "v0.7.1",
+        "sha": "d4d3971764bf081dbb5962652740f537d84bc34a"
       },
       "homepage": "https://github.com/EONRaider/simplicity"
     },
     {
       "name": "agent-router",
       "description": "Sizes subagents to the task. Four pre-sized agent tiers (scout, worker, analyst, judge) with pinned model and effort; a routing skill; an enforcement hook that rejects mismatched spawns with one line naming the correct call; a per-project spawn log with outcome signals; and /agent-router:report, which proposes tier changes from that log for a person to accept or reject. Optional vendor mode covers cloud sessions. Hooks make no model or network calls.",
+      "version": "0.1.0",
       "author": {
         "name": "EONRaider",
         "url": "https://github.com/EONRaider"
