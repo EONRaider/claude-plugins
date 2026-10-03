@@ -89,6 +89,23 @@
         "sha": "bb1da85e6b1a6b09520862e862690d8b5b725e6c"
       },
       "homepage": "https://github.com/EONRaider/simplicity"
+    },
+    {
+      "name": "agent-router",
+      "description": "Sizes subagents to the task. Four pre-sized agent tiers (scout, worker, analyst, judge) with pinned model and effort; a routing skill; an enforcement hook that rejects mismatched spawns with one line naming the correct call; a per-project spawn log with outcome signals; and /agent-router:report, which proposes tier changes from that log for a person to accept or reject. Optional vendor mode covers cloud sessions. Hooks make no model or network calls.",
+      "author": {
+        "name": "EONRaider",
+        "url": "https://github.com/EONRaider"
+      },
+      "category": "productivity",
+      "keywords": ["subagents", "routing", "model-selection", "effort", "hooks", "cost", "usage", "agents"],
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EONRaider/agent-router.git",
+        "ref": "v0.1.0",
+        "sha": "dc3ca3ab1c728abd4150c959c779f1b7501c39f0"
+      },
+      "homepage": "https://github.com/EONRaider/agent-router"
     }
   ]
 }
