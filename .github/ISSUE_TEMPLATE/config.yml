@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: A plugin misbehaves
+    url: https://github.com/EONRaider/claude-plugins#readme
+    about: Report bugs in a plugin on that plugin's own repository, linked from the README. This repo holds only the marketplace manifest.
+  - name: Report a security vulnerability
+    url: https://github.com/EONRaider/claude-plugins/security/advisories/new
+    about: Please report vulnerabilities privately, not in a public issue.
