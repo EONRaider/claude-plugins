@@ -75,18 +75,19 @@
     },
     {
       "name": "simplicity",
-      "description": "Session ergonomics for Claude Code: /simplicity:just-ask collects every open question in the session and asks them through AskUserQuestion with a recommended option and reasoning; /simplicity:just-say-it re-states the latest response(s) as a short plain-language numbered list; /simplicity:what-now takes stock of the session and lists what's done, where the current task stands and the next steps; /simplicity:just-finish-it pushes the session's branches, opens missing PRs, waits for CI and merges the ones that pass, through gh or the GitHub MCP server; /simplicity:cleanup runs an end-of-session checklist that stops background work and flags uncommitted or unpushed changes.",
+      "description": "Session ergonomics for Claude Code: /simplicity:just-ask collects every open question in the session and asks them through AskUserQuestion with a recommended option and reasoning; /simplicity:just-say-it re-states the latest response(s) as a short plain-language numbered list; /simplicity:what-now takes stock of the session and lists what's done, where the current task stands and the next steps; /simplicity:just-finish-it pushes the session's branches, opens missing PRs, waits for CI and merges the ones that pass, through gh or the GitHub MCP server; /simplicity:cleanup runs an end-of-session checklist that stops background work and flags uncommitted or unpushed changes; /simplicity:rename-session renames the session after what it was actually about; /simplicity:promptfy rewrites a prompt into a stronger one and hands it back without running it.",
+      "version": "0.7.0",
       "author": {
         "name": "EONRaider",
         "url": "https://github.com/EONRaider"
       },
       "category": "productivity",
-      "keywords": ["productivity", "questions", "summaries", "concise", "status", "ask-user-question", "pull-requests", "ci", "cleanup", "session", "github-mcp"],
+      "keywords": ["productivity", "questions", "summaries", "concise", "status", "ask-user-question", "pull-requests", "ci", "cleanup", "session", "github-mcp", "session-title", "prompt-engineering"],
       "source": {
         "source": "url",
         "url": "https://github.com/EONRaider/simplicity.git",
-        "ref": "v0.6.0",
-        "sha": "bb1da85e6b1a6b09520862e862690d8b5b725e6c"
+        "ref": "v0.7.0",
+        "sha": "51e1f5d0eeb48d0aafb3208751d8f1cad908fdf4"
       },
       "homepage": "https://github.com/EONRaider/simplicity"
     },
