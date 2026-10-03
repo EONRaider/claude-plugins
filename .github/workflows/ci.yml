@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  manifest:
+    name: manifest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - name: Marketplace manifest is well formed
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          from pathlib import Path
+
+          manifest = json.loads(Path(".claude-plugin/marketplace.json").read_text())
+          readme = Path("README.md").read_text()
+          assert manifest["name"] and manifest["owner"]["name"], "marketplace needs a name and an owner"
+          names = [plugin["name"] for plugin in manifest["plugins"]]
+          assert len(names) == len(set(names)), f"duplicate plugin names: {names}"
+          for plugin in manifest["plugins"]:
+              name, source = plugin["name"], plugin["source"]
+              assert plugin.get("description"), f"{name}: no description"
+              assert source.get("url"), f"{name}: no source url"
+              assert source.get("ref"), f"{name}: not pinned to a ref"
+              assert re.fullmatch(r"[0-9a-f]{40}", source.get("sha", "")), f"{name}: sha is not a full commit id"
+              version = plugin.get("version")
+              assert version is None or source["ref"] == f"v{version}", f"{name}: version {version} != ref {source['ref']}"
+              assert f"[**{name}**]" in readme, f"{name}: not listed in README.md"
+              assert f"claude plugin install {name}@{manifest['name']}" in readme, f"{name}: no install line in README.md"
+          print(f"{len(names)} plugins ok: {', '.join(names)}")
+          PY
+
+  # Single stable check name for the branch ruleset.
+  ci:
+    if: always()
+    needs: [manifest]
+    runs-on: ubuntu-latest
+    steps:
+      - run: test "${{ needs.manifest.result }}" = "success"

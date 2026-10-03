@@ -1,0 +1,22 @@
+name: Marketplace problem
+description: The marketplace fails to add or update, or an entry points at the wrong release
+labels: [bug]
+body:
+  - type: input
+    id: plugin
+    attributes:
+      label: Plugin entry
+      description: For example `simplicity`. Leave empty if the whole marketplace fails.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: The command you ran, what you expected, and the output you got.
+    validations:
+      required: true
+  - type: input
+    id: claude
+    attributes:
+      label: Claude Code version (`claude --version`)
+    validations:
+      required: true
