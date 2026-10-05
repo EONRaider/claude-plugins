@@ -78,8 +78,8 @@
     },
     {
       "name": "simplicity",
-      "description": "Session ergonomics for Claude Code: /simplicity:just-ask collects every open question in the session and asks them through AskUserQuestion with a recommended option and reasoning; /simplicity:just-say-it re-states the latest response(s) as a short plain-language numbered list; /simplicity:what-now takes stock of the session and lists what's done, where the current task stands and the next steps; /simplicity:just-finish-it pushes the session's branches, opens missing PRs, waits for CI and merges the ones that pass, through gh or the GitHub MCP server; /simplicity:cleanup runs an end-of-session checklist that stops background work and flags uncommitted or unpushed changes; /simplicity:rename-session renames the session after what it was actually about; /simplicity:promptfy rewrites a prompt into a stronger one and hands it back without running it.",
-      "version": "0.7.2",
+      "description": "Session ergonomics for Claude Code: /simplicity:just-ask collects every open question in the session and asks them through AskUserQuestion with a recommended option and reasoning; /simplicity:just-say-it re-states the latest response(s) as a short plain-language numbered list; /simplicity:what-now takes stock of the session and lists what's done, where the current task stands and the next steps; /simplicity:just-finish-it pushes the session's branches, opens missing PRs, waits for CI and merges the ones that pass, through gh or the GitHub MCP server; /simplicity:cleanup runs an end-of-session checklist that stops background work and flags uncommitted or unpushed changes; /simplicity:rename-session renames the session after what it was actually about; /simplicity:promptfy rewrites a prompt into a stronger one and hands it back without running it. Every skill except just-finish-it also runs when named mid-sentence.",
+      "version": "0.8.1",
       "author": {
         "name": "EONRaider",
         "url": "https://github.com/EONRaider"
@@ -89,8 +89,8 @@
       "source": {
         "source": "url",
         "url": "https://github.com/EONRaider/simplicity.git",
-        "ref": "v0.7.2",
-        "sha": "e4829745e8486c0399a8e20b7d305a36e9ea67ba"
+        "ref": "v0.8.1",
+        "sha": "42532bac6457ba2a07612f10e2bca29f3bb6ff59"
       },
       "homepage": "https://github.com/EONRaider/simplicity"
     },
