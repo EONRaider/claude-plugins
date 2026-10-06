@@ -78,19 +78,19 @@
     },
     {
       "name": "simplicity",
-      "description": "Session ergonomics for Claude Code: /simplicity:just-ask collects every open question in the session and asks them through AskUserQuestion with a recommended option and reasoning; /simplicity:just-say-it re-states the latest response(s) as a short plain-language numbered list; /simplicity:what-now takes stock of the session and lists what's done, where the current task stands and the next steps; /simplicity:just-finish-it pushes the session's branches, opens missing PRs, waits for CI and merges the ones that pass, through gh or the GitHub MCP server; /simplicity:shift-session commits and pushes the session's work, updates its trackers and hands it to a fresh child session titled \"<topic> -> Part N\", and a hook suggests a shift once context use reaches a threshold; /simplicity:cleanup runs an end-of-session checklist that stops background work and flags uncommitted or unpushed changes; /simplicity:rename-session renames the session after what it was actually about; /simplicity:promptfy rewrites a prompt into a stronger one and hands it back without running it. Every skill except just-finish-it also runs when named mid-sentence.",
-      "version": "0.9.0",
+      "description": "Session ergonomics for Claude Code: /simplicity:just-ask collects every open question in the session and asks them through AskUserQuestion with a recommended option and reasoning; /simplicity:just-say-it re-states the latest response(s) as a short plain-language numbered list; /simplicity:what-now takes stock of the session and lists what's done, where the current task stands and the next steps; /simplicity:just-finish-it pushes the session's branches, opens missing PRs, waits for CI and merges the ones that pass, through gh or the GitHub MCP server; /simplicity:shift-session commits and pushes the session's work, updates its trackers and hands it to a fresh child session titled \"<topic> -> Part N\", and a hook suggests a shift once context use reaches a threshold; /simplicity:call-it-a-day puts the session on hold for the day: it commits and pushes the work in progress, updates the trackers, saves a handoff note, renames the session \"<topic> -> On hold\" and gives it back its old title when the work resumes; /simplicity:cleanup runs an end-of-session checklist that stops background work and flags uncommitted or unpushed changes; /simplicity:rename-session renames the session after what it was actually about; /simplicity:promptfy rewrites a prompt into a stronger one and hands it back without running it. Every skill except just-finish-it also runs when named mid-sentence.",
+      "version": "0.10.0",
       "author": {
         "name": "EONRaider",
         "url": "https://github.com/EONRaider"
       },
       "category": "productivity",
-      "keywords": ["productivity", "questions", "summaries", "concise", "status", "ask-user-question", "pull-requests", "ci", "cleanup", "session", "github-mcp", "session-title", "prompt-engineering", "session-handoff", "context-window", "hooks"],
+      "keywords": ["productivity", "questions", "summaries", "concise", "status", "ask-user-question", "pull-requests", "ci", "cleanup", "session", "github-mcp", "session-title", "prompt-engineering", "session-handoff", "context-window", "hooks", "session-hold", "work-in-progress"],
       "source": {
         "source": "url",
         "url": "https://github.com/EONRaider/simplicity.git",
-        "ref": "v0.9.0",
-        "sha": "24fbd60aaf02c361d74fa05d077868db1f496eda"
+        "ref": "v0.10.0",
+        "sha": "02860f889e4537581ce64e77572bde6a82769a31"
       },
       "homepage": "https://github.com/EONRaider/simplicity"
     },
